@@ -1,0 +1,86 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: palevioletred;  /* Soft light blue background for a serene look */
+}
+
+form {
+    margin: auto;
+    background-color: #fff9f7;  /* Very light blush pink background */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Softer shadow for a classy effect */
+    padding: 30px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: forestgreen; /* Deep teal for elegance and contrast */
+    margin: 20px;
+    border-radius: 8px;
+}
+
+fieldset {
+    border: 2px solid #f7c4d1;  /* Light pastel pink border */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffe6f0;  /* Soft pastel pink background */
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #d97fa6;  /* Soft mauve pink for the legend */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #444;  /* Dark gray for easy readability */
+}
+
+input, textarea {
+    margin-top: 4px;
+    padding: 12px;
+    width: calc(100% - 2px);
+    border: 1px solid #f7c4d1;  /* Matching pastel pink border */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;  /* White background for inputs */
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #ff6f61;  /* Soft coral for a beautiful contrast */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow to lift the button */
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4b3e;  /* Darker coral shade for hover effect */
+}
+
+#form-see {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #c1e1d3;  /* Soft mint green border */
+    border-radius: 8px;
+    background-color: #e8f9f3;  /* Very soft minty light blue background */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for elegance */
+}
+
+#form-see h2 {
+    color: #4d9d7f;  /* Beautiful greenish-teal color for the title */
+}
